@@ -17,7 +17,7 @@ const props = withDefaults(defineProps<Props>(), {
     <nav>
         <img
             v-if="props.showIcon"
-            src="@/assets/logo.svg"
+            src="@/assets/rick-logo.svg"
             alt="Vue Logo"
             height="25"
             width="25" />

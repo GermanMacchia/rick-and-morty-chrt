@@ -7,10 +7,12 @@ import { routerLinks } from './router/link-routes'
 <template>
     <div class="wrapper">
         <header>
-            <NavBar title="BreakingBad" :links="routerLinks" />
+            <NavBar title="Rick & Morty" :links="routerLinks" />
         </header>
         <main>
-            <RouterView />
+            <Suspense>
+                <RouterView />
+            </Suspense>
         </main>
     </div>
 </template>

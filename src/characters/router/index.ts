@@ -24,7 +24,7 @@ export const characterRoute: RouteRecordRaw = {
             name: 'character-list',
             component: CharacterList,
             props: {
-                title: 'Lista',
+                title: 'Lista de Personajes',
                 visible: true
             }
         },
